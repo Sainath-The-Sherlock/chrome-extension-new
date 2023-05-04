@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: blue;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+li .team-name {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+li .team-score {
+  font-size: 16px;
+  font-weight: bold;
+  font-family:sans-serif;
+}
+
+li .middle {
+  font-size: 10px;
+}
+
+li .match-status {
+  font-size: 16px;
+  color: red;
+}
+
+li .match-statu {
+  font-size: 11px;
+  color: green;
+}
+
+li .match-action {
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+li .match-time {
+  margin-left: 5px;
+  font-size: 12px;
+}
